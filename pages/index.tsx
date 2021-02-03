@@ -12,4 +12,11 @@ const IndexPage = () => (
   </Layout>
 )
 
+export const getStaticProps = async () => {
+  return {
+    props: {},
+    revalidate: 300,
+  }
+}
+
 export default IndexPage

@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
+const My404 = () => (
+  <Layout title="404 | Next.js + TypeScript Example">
+    <h1>404</h1>
+    <p>This is nothing</p>
     <p>
       <Link href="/">
         <a>Go home</a>
@@ -20,4 +20,4 @@ export const getStaticProps = async () => {
   }
 }
 
-export default AboutPage
+export default My404
